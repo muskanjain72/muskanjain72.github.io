@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet"> -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Special+Gothic+Condensed+One&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="splash-screen">
+        <!-- <div class="aurora multicolor"></div> -->
+        <div class="aurora-background"></div>
+        <div class="aurora-overlay"></div>
+        <h1>WELCOME TO MY WEBSITE </h1>
+    </div>
+    <div id="main_content">
+
+        <header>
+            <!-- <h1>Hi, I'm Muskan Jain — turning imagination into code 🎨💡</h1> -->
+            <h1>Heyyy, I'm Muskan Jain — curious mind, creative soul ✨</h1>
+        </header>
+
+        <div id="page_layout">
+            <div class="main-column">
+                <!-- Move your sections like #about, #education etc. here -->
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Education </a></li>
+                    <li><a href="#skills">Technical Skills</a></li>
+                    <li><a href="#cv-section">My CV</a></li>
+                    <li><a href="#text-analyzer">Text Analyzer</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <section id="about">
+            <!-- <h2 style="align-content: center;size: 5px;">About Me</h2> -->
+            <h2 class="section-title">ABOUT ME</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>
+
+                        I’m someone who genuinely enjoys coding — not just as a subject, but as something that makes me
+                        feel at home.<br>
+                        I usually start my day early on campus, headphones on, Hindi songs playing, and a fresh mind
+                        ready to create something new.<br>
+                        I chose CSE at IIIT-H because coding just clicked for me. It’s like solving little mysteries,
+                        and I love that feeling of cracking a problem.<br>
+                        Beyond code, I’m into cricket, movies, long walks, and good conversations with friends and
+                        family. I find joy in the small, quiet moments.<br>
+                        You’ll often find me chasing sunsets, humming a favorite song, or just soaking in the world
+                        around me.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/web2.jpeg" alt="My profile picture" class="profile-pic">
+                </div>
+                <h2 class="section-title">SOME OF THE PICS</h2>
+                <div class="gallery-container">
+                    <!-- Each image-card represents one picture with its overlay info -->
+                    <div class="image-card">
+                        <img src="images/local_final1.jpeg" alt="Beautiful Mountain">
+                        <div class="info-overlay">Singhgad fort @ Pune</div>
+                    </div>
+                    <div class="image-card">
+                        <img src="images/local_final2.jpeg" alt="Sunny Beach">
+                        <div class="info-overlay">Dangaru Seth Temple @ Pune</div>
+                    </div>
+                    <div class="image-card">
+                        <img src="images/local_final6.jpg" alt="Historical Monument">
+                        <div class="info-overlay">Shaniwarwada @ Pune</div>
+                    </div>
+                    <div class="image-card">
+                        <img src="images/local_final3.jpeg" alt="City Lights">
+                        <div class="info-overlay">Atal Bridge @ Ahmedabad</div>
+                    </div>
+                    <div class="image-card">
+                        <img src="images/local_final4.jpeg" alt="Serene Forest">
+                        <div class="info-overlay">Riverfront @ Ahmedabad</div>
+                    </div>
+                    <div class="image-card">
+                        <img src="images/local_final5.jpeg" alt="Historical Monument">
+                        <div class="info-overlay">Historical Monument - Timeless architecture</div>
+                    </div>
+                    <!-- <div class="image-card">
+                        <img src="images/local_final6.jpg" alt="Historical Monument">
+                        <div class="info-overlay">Shaniwarwada @ Pune</div>
+                    </div> -->
+                </div>
+                <!-- <div class="gallery-container">
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="family">Family</button>
+                        <button class="tab-button" data-tab="friends">Friends</button>
+                        <button class="tab-button" data-tab="cities">Cities</button>
+                    </div>
+
+                    <div class="gallery">
+                        <button class="nav-button left" onclick="prevSlide()">&#10094;</button>
+
+                        <div class="slider" id="slider">
+                            <div class="slide-group" data-tab="family">
+                                <div class="photo-card">
+                                    <img src="images/web1.jpeg" alt="Family 1">
+                                    <div class="hover-info">Grandpa's birthday, 2023</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web3.jpeg" alt="Family 2">
+                                    <div class="hover-info">Beach trip with cousins</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web4.jpeg" alt="Family 2">
+                                    <div class="hover-info">Beach trip with cousins</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web5.jpeg" alt="Family 2">
+                                    <div class="hover-info">Beach trip with cousins</div>
+                                </div>
+                            </div>
+
+                            <div class="slide-group hidden" data-tab="friends">
+                                <div class="photo-card">
+                                    <img src="images/web1.jpeg" alt="Friends 1">
+                                    <div class="hover-info">College Fest 2022</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web3.jpeg" alt="Friends 2">
+                                    <div class="hover-info">Late night coffee vibes</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web4.jpeg" alt="Friends 2">
+                                    <div class="hover-info">Late night coffee vibes</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/web5.jpeg" alt="Friends 2">
+                                    <div class="hover-info">Late night coffee vibes</div>
+                                </div>
+                            </div>
+
+                            <div class="slide-group hidden" data-tab="cities">
+                                <div class="photo-card">
+                                    <img src="images/local_final1.jpeg" alt="City 1">
+                                    <div class="hover-info">Paris – Eiffel Tower at night</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/local_final2.jpeg" alt="City 2">
+                                    <div class="hover-info">Tokyo Street Market</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/local_final3.jpeg" alt="City 2">
+                                    <div class="hover-info">Tokyo Street Market</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/local_final4.jpeg" alt="City 2">
+                                    <div class="hover-info">Tokyo Street Market</div>
+                                </div>
+                                <div class="photo-card">
+                                    <img src="images/local_final5.jpeg" alt="City 2">
+                                    <div class="hover-info">Tokyo Street Market</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="nav-button right" onclick="nextSlide()">&#10095;</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+
+        <section id="education">
+            <h2 class="section-title">Education & Achievements</h2>
+            <div class="education-grid">
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <a href="https://littleheartsschool.co.in/" target="_blank">
+                                <!-- <img src="images/little-hearts-logo.png" alt="Little Hearts School"
+                                    style="max-width: 80%; height: auto;" /> -->
+                                <img src="images/school.jpeg" />
+                            </a>
+                        </div>
+                        <div class="flip-card-back">
+                            <!-- <p>Fun beginnings! 🌈</p> -->
+                            <h3>POdar World School</h3>
+                            <p>Nursery to Class 2</p>
+                            <p>First stage of my learning journey ✨</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://content3.jdmagicbox.com/v2/comp/ahmedabad/m4/079pxx79.xx79.230305181916.m2m4/catalogue/kv-ongc-chandkheda-ahmedabad-secondary-schools-5l78n9p2Na.jpg"
+                                style="max-width: 80%; height: auto;" />
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Kendriya Vidyalaya ONGC,Chandkheda</p>
+                            <p>Class 3 to class 7</p>
+                            <p>Great teachers, science exhibitions, first prize in quiz 🧠</p>
+                            <a href="https://ongcchandkheda.kvs.ac.in/" target="_blank">Click here to know more...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <!-- <h3>K.V. Army Area, Pune</h3>
+                            <p>Class 7 to 12</p> -->
+                            <!-- <img src="https://www.google.com/imgres?q=lulla%20nagar%20kv%20army%20area%20pune&imgurl=https%3A%2F%2Fcontent3.jdmagicbox.com%2Fcomp%2Fpune%2Fu3%2F020pxx20.xx20.100917103836.r1u3%2Fcatalogue%2Fkendriya-vidyalaya-wanowrie-pune-schools-39mtc5.jpg&imgrefurl=https%3A%2F%2Fwww.justdial.com%2FPune%2FKendriya-Vidyalaya-Near-Wanworie-Range-Wanowrie%2F020PXX20-XX20-100917103836-R1U3_BZDET&docid=-CpdpPIDMWhn5M&tbnid=dXHQbqHhHtUbKM&w=481&h=371&hcb=2"
+                                style="max-width: 80%; height:auto" /> -->
+                            <img src="images/kvaa.jpeg" />
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Kendriya Vidyalaya Army Area,Pune</p>
+                            <p>Class 7 to Class 12</p>
+                            <p>Scored 95%+, participated in national-level Olympiads 🏅</p>
+                            <a href="https://armyareapune.kvs.ac.in/" target="_blank">Click here to know more...</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <!-- <h3>JEE Coaching</h3>
+                            <p>Aakas</p> -->
+                            <!-- <img src="https://www.google.com/imgres?q=aakash%20institute&imgurl=https%3A%2F%2Fimages.jdmagicbox.com%2Fv2%2Fcomp%2Fhyderabad%2Fl1%2F040pxx40.xx40.161224174550.x9l1%2Fcatalogue%2Faakash-institute-hyderabad-39gmjj8.jpg&imgrefurl=https%3A%2F%2Fwww.justdial.com%2FHyderabad%2FAakash-Institute%2F040PXX40-XX40-161224174550-X9L1_BZDET&docid=ryacF-bqHF_IhM&tbnid=MfXFleRnJho3HM&w=400&h=347&hcb=2"
+                                style="max-width: 80%;height: auto;" /> -->
+                            <img src="images/aakash.jpeg" />
+                        </div>
+                        <div class="flip-card-back">
+                            <p>My foundation for Jee was built here</p>
+                            <p>Cleared JEE Advanced, strong in Algebra 💯</p>
+                            <p> I fall in love with maths here</p>
+                            <a href="https://www.aakash.ac.in/" target="_blank">Click here to know more..</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <!-- <h3>Experience</h3>
+                            <p>Vapi, Anand, Rajkot...</p> -->
+                            <img src="images/medals.jpeg" style="max-width: 80%;height: auto;" />
+                        </div>
+                        <div class="flip-card-back">
+                            <!-- <p>Diverse life, met amazing people across cities ✨</p> -->
+                            <p>I secured 99.9 percentile in JEE MAINS and cleared JEE ADV in my first attempt.</p>
+                            <p>I am the batch topper in class 10 and 12.</p>
+                            <!-- <p>I</p> -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-container">
+
+                <!-- Frontend -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <p>HTML5</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <p>CSS3</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="C++">
+                    <p>C++</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <p>Java</p>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                        alt="MongoDB">
+                    <p>MongoDB</p>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                    <p>Git</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="Bash">
+                    <p>Bash</p>
+                </div>
+                <!-- Node-RED -->
+                <!-- <div class="skill-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Node-red-icon.png" alt="Node-RED"
+                        style="border-radius: 10px;">
+                    <p>Node-RED</p>
+                </div> -->
+                <!-- General Programming -->
+                <div class="skill-card">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Programming"
+                        style="border-radius: 10px;">
+                    <p>Programming</p>
+                </div>
+            </div>
+            <p class="section-subtext">
+                I’ve worked across various tools and technologies — from frontend to backend and beyond.
+                Always up for learning something new and building cool stuff that actually works!
+            </p>
+        </section>
+        <section id="cv-section">
+            <h2 class="section-title">My CV</h2>
+            <p class="section-subtext">
+                Here's a quick snapshot of my journey, skills, and accomplishments so far.
+                Feel free to download and take a look!
+            </p>
+            <div class="cv-button-container">
+                <a href="assets/My_CV.pdf" target="_blank" class="cv-button">View My CV</a>
+            </div>
+        </section>
+        <section id="text-analyzer">
+            <h2 class="section-title">Text Analyzer</h2>
+            <textarea id="textInput" placeholder="Paste text with more than 10000 words here..." rows="10"></textarea>
+            <button id="analyzeButton" class="cv-button">Analyze Text</button>
+            <div id="analysisResults"></div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <p>If you'd like to collaborate, chat about tech, or just say hi — I'm all ears!</p>
+                <p>Drop me a message anytime, or check out my work here:</p>
+                <div class="contact-links">
+                    <a href="mailto:muskanvjain72@gmail.com" target="_blank" class="contact-link">📧
+                        muskanvjain72@gmail.com</a>
+                    <a href="https://github.com/muskanjain72" target="_blank" class="contact-link">💻
+                        github.com/muskanjain72</a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Made with ❤️ by Muskan Jain :)</p>
+        </footer>
+        <script src="script.js"></script>
+    </div>
+</body>
